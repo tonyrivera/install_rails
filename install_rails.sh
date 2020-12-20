@@ -30,4 +30,4 @@ gem install rails
 rbenv rehash
 
 echo "To install new rails app:"
-echo "rails new app_name --skip-spring --skip-listen"
+echo "rails new app_name"
