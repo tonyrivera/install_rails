@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# installs rails in WSL (Ubuntu 18.04)
+# Installs ruby on rails
 set -eux
 
 if [ "$(id -u)" = 0 ]
