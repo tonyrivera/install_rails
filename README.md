@@ -7,4 +7,5 @@
     rails new app_name # Use this in non WSL ubuntu versions
     rails new app_name --skip-spring --skip-listen # For Windows Subsystem (WSL) for Linux Ubuntu users
     cd new_app/
+    bundle
     rails -server
