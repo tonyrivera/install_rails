@@ -5,3 +5,4 @@ To install Ruby on Rails development environment, copy and paste this line in th
     sudo apt-get update
     sudo apt-get install curl
     bash <(curl -sL https://raw.githubusercontent.com/tonyrivera/install_rails/main/install_rails.sh)
+    rails new app_name --skip-spring --skip-listen
