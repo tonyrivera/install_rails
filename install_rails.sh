@@ -21,7 +21,7 @@ sudo apt install yarn
 
 sudo apt-get --fix-missing install build-essential git-core curl openssl libssl-dev libcurl4-openssl-dev zlib1g zlib1g-dev libreadline6-dev libyaml-dev libsqlite3-dev libsqlite3-0 sqlite3 libxml2-dev libxslt1-dev libffi-dev software-properties-common libgdm-dev libncurses5-dev automake autoconf libtool bison postgresql postgresql-contrib libpq-dev pgadmin3 libc6-dev imagemagick rbenv ruby-build -y
 
-rbenv install 2.7.2 --force --verbose --version
+rbenv install 2.7.2 --skip-existing --verbose --version
 rbenv global 2.7.2
 
 echo "gem: --no-ri --no-rdoc" > ~/.gemrc
