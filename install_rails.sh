@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # Installs ruby on rails
-set -eux
 
 if [ "$(id -u)" = 0 ]
 then
@@ -29,8 +28,6 @@ gem install bundler
 gem env home
 gem install rails
 rbenv rehash
-
-set +eux
 
 echo "To install new rails app:"
 echo "rails new app_name --skip-spring --skip-listen"
