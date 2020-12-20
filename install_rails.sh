@@ -30,7 +30,7 @@ gem env home
 gem install rails
 rbenv rehash
 
-set +e
+set +eux
 nodejs -v
 yarn -v
 rbenv -v
