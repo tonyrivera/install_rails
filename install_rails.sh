@@ -31,11 +31,6 @@ gem install rails
 rbenv rehash
 
 set +eux
-nodejs -v
-yarn -v
-rbenv -v
-ruby -v
-rails -v
 
 echo "To install new rails app:"
 echo "rails new app_name --skip-spring --skip-listen"
